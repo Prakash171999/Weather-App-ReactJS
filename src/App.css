@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Operator Mono Light";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  background: whitesmoke;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-wrap:wrap;
+  height: 100vh;
+  width:100vw;
 }
 
-.App-link {
-  color: #61dafb;
+.box{
+  width:25vw;
+  height: 65vh;
+  border-radius: 0.5rem;
+  background: cornflowerblue;
+  border-style: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputData{
+  display:flex;
+  background-color: indigo;
+}
+
+.inputField{
+  width: 250px;
+  height: 20px;
+  margin: auto;
+  border-radius: 0.5rem;
+  padding: 1rem 1rem;
+  outline: none;
+  border-style: groove;
+  font-size: 17px;
+  margin-top: 10px;
 }

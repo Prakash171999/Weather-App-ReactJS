@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
+import TempApp from "./Components/TempApp";
+import './App.css';
 
 const App = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <>
+      <TempApp />
+    </>
+  );
+};
 
 export default App;
