@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap:wrap;
+  /* flex-wrap:wrap; */
   height: 100vh;
   width:100vw;
 }
@@ -24,7 +24,7 @@ body {
 
 .inputData{
   display:flex;
-  background-color: indigo;
+  /* background-color: indigo; */
 }
 
 .inputField{
