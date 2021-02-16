@@ -56,7 +56,7 @@ body {
 }
 
 .main {
-  width: 295px;
+  width: 305px;
   height: 432px;
   background: rgba(4, 7, 37, 0.88);
   border-radius: 15px;
@@ -98,40 +98,49 @@ body {
   color: white;
 }
 
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 21px;
+}
+
 .location {
   /* font-family: Roboto; */
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 21px;
+  margin-top: 18px;
 }
 
 .date {
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 19px;
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 .weather-condition {
-  width: 78px;
-  height: 78px;
+  width: 60px;
+  height: 60px;
   margin-top: 20px;
 }
 
 .temp {
-  font-family: Roboto;
+  /* font-family: Roboto; */
   font-style: normal;
   font-weight: normal;
-  font-size: 17px;
+  font-size: 38px;
   line-height: 20px;
-  margin-top: 20px;
+  margin-top: 30px;
+  text-align: center;
 }
 
 .tempmin_max {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  margin-top: 8px;
+  font-size: 15px;
+  margin-top: 25px;
 }
