@@ -1,3 +1,4 @@
+/* 
 * {
   padding: 0px;
   margin: 0px;
@@ -9,7 +10,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-wrap:wrap; */
   height: 100vh;
   width:100vw;
 }
@@ -24,7 +24,6 @@ body {
 
 .inputData{
   display:flex;
-  /* background-color: indigo; */
 }
 
 .inputField{
@@ -37,4 +36,102 @@ body {
   border-style: groove;
   font-size: 17px;
   margin-top: 10px;
+}
+ */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Operator Mono Light";
+}
+
+body {
+  background: #e6e5e5;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  /* margin: auto; */
+}
+
+.main {
+  width: 295px;
+  height: 432px;
+  background: rgba(4, 7, 37, 0.88);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.inputData {
+  position: absolute;
+  border-style: none;
+  margin-top: 45px;
+}
+
+.inputField {
+  width: 238px;
+  height: 41px;
+  background: rgba(245, 233, 233, 0.95);
+  mix-blend-mode: overlay;
+  border-style: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.inputField:focus {
+  background-color: white;
+}
+
+.noData {
+  margin-top: 60%;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.info {
+  text-align: center;
+  margin-top: 50%;
+  color: white;
+}
+
+.location {
+  /* font-family: Roboto; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.date {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 8px;
+}
+
+.weather-condition {
+  width: 78px;
+  height: 78px;
+  margin-top: 20px;
+}
+
+.temp {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+
+.tempmin_max {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  margin-top: 8px;
 }
